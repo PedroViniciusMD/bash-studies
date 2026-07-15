@@ -1,7 +1,8 @@
 #! /bin/bash
 
-#todo -> random
-number0=19
+
+number0=$RANDOM # [0-32767]
+#number0=$(( (RANDOM % 100) + 1 )) -> 1 to 100
 tries=0
 loop=true
 

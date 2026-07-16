@@ -11,6 +11,12 @@ do
     echo $i
 done
 
+for command in ls pwd date
+do
+    echo "-----$command-----"
+    $command
+done
+
 #for VARIABLE in file1 file2 file3
 #do
     #cmd1
